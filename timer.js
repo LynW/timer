@@ -2,8 +2,8 @@
 
 const input = function() {
   //gets the commandline args the user inputs
-  let arguments = process.argv.slice(2);
-  return arguments;
+  let userInput = process.argv.slice(2);
+  return userInput;
 };
 
 const timer = function() {
