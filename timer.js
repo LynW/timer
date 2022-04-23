@@ -14,11 +14,11 @@ const timer = function() {
   for (let times of inputs) {
 
     // when the user puts in an input that's not a number, less than or equal to 0, or is null then it should exit.
-    if (!isNaN(inputs) || inputs > 0 || inputs !== null) {
+    if (!isNaN(times) || times > 0 || times !== null) {
 
       setTimeout(() => {
         process.stdout.write('\007');
-      }, times * 1000);
+      }, inputs * 1000);
       //coverts the time to seconds
     }
   }
